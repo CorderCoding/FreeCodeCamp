@@ -1,0 +1,39 @@
+body {
+  background-color: #A1000A;
+}
+
+.affix {
+  margin-right: 50%;
+  margin-top: 50px;
+}
+
+.input-group {
+  margin-top: 25%;
+}
+
+.well {
+  background-color: #106C9E;
+  margin: 2.5%;
+}
+
+#results {
+  list-style: none;
+}
+
+#results a:link, ul a:visited {
+  color: white;
+}
+
+#results p {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    margin-top: 5%;
+  }
+  
+  #results {
+    padding-left: 1%;
+  }
+}

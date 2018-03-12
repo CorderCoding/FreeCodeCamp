@@ -1,0 +1,29 @@
+body {
+  background-color: purple;
+}
+
+#channels {
+  background-color: purple;
+}
+
+#channels h2, #channels h3 {
+  color: white;
+}
+
+#filters {
+  margin-top: 20%;
+}
+#filters .btn {
+	margin-bottom: 15px;
+}
+#users {
+  list-style: none;
+}
+
+#users img{
+  width: 50px;
+}
+
+footer {
+  color: white;
+}

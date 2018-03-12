@@ -1,0 +1,14 @@
+body {
+  margin-top: 75px;
+  font-family: 'Revalia', cursive;
+}
+
+.jumbotron {
+  background-color: #B3D899;
+}
+
+.anchor {
+  display: block;
+  height: 75px; 
+  margin-top: -75px; 
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twtich.TV API Project</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="twitch.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="twitch.js"></script>
+</head>
+<body>
+  <div class="container">
+  <div class="row jumbotron">
+    <h1 class="text-center">Twitch.TV API</h1>
+    <div id="filters" class="col-sm-4 text-center">
+      <h2>Filters</h1>
+      <button id="all" class="btn btn-default">All</button>
+      <button id="online" class="btn btn-success">Online</button>
+      <button id="offline" class="btn btn-danger">Offline</button>
+      <button id="clear" class="btn btn-warning">Clear List</button>
+      <div class="input-group">
+      <input id="add-input" type="text" class="form-control" placeholder="Enter User">
+      <span class="input-group-btn">
+        <button id="add" class="btn btn-default" type="button">Add</button>
+      </span>
+    </div>
+    </div>
+    <div id="channels" class="col-sm-8 jumbotron">
+      <h2 class="text-center">Channels</h2>
+      <h3 class="text-center">Default list is list of channels followed by Proto1522.</h3>
+      <ul id="users" class="list-group text-center">
+        <div id="users-online"></div>
+        <div id="users-offline"></div>
+        <div id="users-not-found"></div>
+      </ul>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <p class="text-center">By Aaron Corder</p>
+</footer>
+</body>
+</html>

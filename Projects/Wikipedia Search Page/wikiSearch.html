@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wikipedia Search</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="wikiSearch.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="wikiSearch.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="affix">
+        <h1 class="jumbotron text-center">Search Wikipedia</h1>
+        <div class="input-group">
+          <input id="search" type="text" class="form-control text-center" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button id="search-button" class="btn btn-default" type="submit">Search</button>
+          </span>
+        </div><!-- /input-group -->
+        <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-default center-block" target="_blank">Click Here for Random Article</a>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <ul id="results">
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

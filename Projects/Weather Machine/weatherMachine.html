@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Machine</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="weatherMachineMachine.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="weatherMachine.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>Local Weather</h2>
+      <h2 id="loc"></h2>
+      <div class="row">
+        <div class="col-sm-6 text-right">
+          <h3 id="temp"></h3>
+        </div>
+        <div class="col-sm-6 text-left">
+          <div id="change-unit" class="btn btn-default btn-lg">Fahrenheit/Celsius</div>
+        </div>
+      </div>
+      <br>
+      <img id="icon" src="#" alt="#">
+      <h2 id="weather"></h2>
+    </div>
+  </div>
+  <footer class="footer navbar-fixed-bottom">
+    <div class="container text-center">
+      <p>By Aaron Corder</p>
+    </div>
+  </footer>
+</body>
+</html>
